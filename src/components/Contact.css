@@ -1,0 +1,101 @@
+.contato{
+    padding: 80px 10%;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.titulo-contato{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitulo-contato{
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.container-contato{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.btn-whatsapp{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #25D366;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-whatsapp:hover{
+    background: #1ebe5d;
+}
+
+.info-contato{
+    text-align: left;
+    max-width: 300px;
+}
+
+.info-contato h3{
+    margin-bottom: 15px;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.form-contato input, .form-contato textarea{
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+}
+
+.form-contato input:focus, .form-contato textarea:focus{
+    border-color: #ff6b6b;
+}
+
+.form-contato button{
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-contato button:hover{
+    background: #ff4b4b;
+}
+
+.success-messagesn{
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    background: #16a34a;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .container-contato{
+        flex-direction: column;
+        align-items: center;
+    }
+}

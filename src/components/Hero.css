@@ -1,0 +1,72 @@
+.hero{
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("../assets/banner.jpg");
+    background-size: cover;
+    background-position: center 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+
+.hero-content{
+    max-width: 600px;
+}
+
+.hero h1{
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero span{
+    color: #facc15;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.hero button{
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover{
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px){
+    .hero{
+        height: 80vh;
+        padding: 0 20px;
+        text-align: center;
+        justify-content: center;
+        background-position: center 25%;
+    }
+
+    .hero-content{
+        max-width: 100%;
+    }
+
+    .hero h1{
+        font-size: 32px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    .hero button{
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
